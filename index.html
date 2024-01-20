@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-50">
    <header class="bg-[#FFFBF0]">
     <nav class="container mx-auto bg-[#FFFBF0] ">
         <div class="navbar">
@@ -54,21 +54,78 @@
    <main class="container mx-auto">
 
     <section class="woman-jacket">
-        <p>Woman Jacket</p>
-        <div class="card card-compact w-[23rem] h-[34rem] bg-white shadow-xl">
-            <figure class="bg-[#F1F1F1] p-8  rounded-xl"><img src="images/jacket-1.png" class="w-60 h-60 " alt="jacket-1" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
+        <p class="text-center lg:text-left">Woman Jacket</p>
+      <div class="card-container   flex flex-col lg:flex-row justify-center items-center gap-8">
+        <div class="card card-compact w-[23rem] h-[34rem] bg-white shadow-xl p-4">
+          <figure class="bg-[#F1F1F1] p-8  rounded-xl"><img src="images/jacket-1.png" class="w-60 h-60 " alt="jacket-1" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-between items-center">
+              <h5>$234</h5>
+              <button class="btn btn-primary">Buy Now</button>
             </div>
           </div>
+        </div>
+        <div class="card card-compact w-[23rem] h-[34rem] bg-white shadow-xl p-4">
+          <figure class="bg-[#F1F1F1] p-8  rounded-xl"><img src="images/jacket-1.png" class="w-60 h-60 " alt="jacket-1" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-between items-center">
+              <h5>$234</h5>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-[23rem] h-[34rem] bg-white shadow-xl p-4">
+          <figure class="bg-[#F1F1F1] p-8  rounded-xl"><img src="images/jacket-1.png" class="w-60 h-60 " alt="jacket-1" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-between items-center">
+              <h5>$234</h5>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     </section>
-
+    <section class="lastsection my-32">
+      <div class="container mx-auto pb-8">
+        <div class=" flex items-center  flex-col lg:flex-row-reverse justify-center">
+          <img src="./images/shopping.png" class="w-1/2 rounded-lg" />
+          <div class="last-container flex flex-col gap-4 w-1/2">
+            <div class="card flex items-center lg:w-[30] lg:h-32 card-side bg-[#FFFFFF] shadow-xl">
+              <figure><img src="icons/house.png" class="h-11 w-11" alt="Movie"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">Find the Perfect Fit</h2>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="card flex items-center lg:w-[30] lg:h-32 card-side bg-[#FFFFFF] shadow-xl">
+              <figure><img src="icons/house.png" class="h-11 w-11" alt="Movie"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">Find the Perfect Fit</h2>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="card flex items-center lg:w-[30] lg:h-32 card-side bg-[#FFFFFF] shadow-xl">
+              <figure><img src="icons/house.png" class="h-11 w-11" alt="Movie"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">Find the Perfect Fit</h2>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
    </main>
    <footer></footer>
